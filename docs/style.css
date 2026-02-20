@@ -108,6 +108,7 @@ header div {
 
 .section-chose-plan {
     background-color: #efefef;
+    padding: 40px 0px;
 
 }
 
@@ -130,6 +131,7 @@ header div {
 .credit-cards {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 
