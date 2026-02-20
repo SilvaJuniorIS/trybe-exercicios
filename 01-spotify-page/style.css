@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -25,6 +27,10 @@ header div {
     display: flex;
     align-items: center;
     list-style: none;
+}
+
+.menu li:hover {
+    color: #1ed760;
 }
 
 .menu li {
@@ -68,6 +74,11 @@ header div {
     border-radius: 100px;
     border: 1px solid black;
 }
+
+#btn-comece-agora:hover {
+    padding: 20px 40px;
+}
+
 #btn-ver-planos {
     background-color:  rgb(29, 117, 222);
     border: 1px solid white;
@@ -108,6 +119,7 @@ header div {
 
 .section-chose-plan {
     background-color: #efefef;
+    padding: 30px 0px;
 
 }
 
@@ -125,11 +137,13 @@ header div {
 .section-chose-plan h3 {
     font-size: 15px;
     padding: 10px 0;
+    text-align: center;
 }
 
 .credit-cards {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 
@@ -139,6 +153,9 @@ header div {
 
 .section-plan {
     display: flex;
+    height: 700px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .plan-style {
@@ -203,3 +220,41 @@ header div {
     color: rgb(83, 83, 83);
     font-size: 10px;
 }
+
+footer {
+    background-color: black;
+    display: flex;
+    padding: 70px 10%;
+    justify-content: center;
+}
+
+footer div ul {
+    list-style: none;
+    color: #919486;
+}
+
+footer a {
+    color: white    ;
+    text-decoration: none;
+}
+
+footer li:nth-child(1) {
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+footer img {
+width: 150px;
+padding-right: 20px;
+}
+
+footer i {
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
