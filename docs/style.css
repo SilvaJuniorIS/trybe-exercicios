@@ -18,6 +18,11 @@ header div {
     margin: auto;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 .spotify-logo {
     width: 150px;
 }
@@ -30,6 +35,10 @@ header div {
 }
 
 .menu li:hover {
+    color: #1ed760;
+}
+
+.menu a:hover {
     color: #1ed760;
 }
 
