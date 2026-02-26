@@ -52,28 +52,27 @@
             <input type="number" id="birthdate-year-input" placeholder="AAAA">
         </div>
         <label>Gênero</label>
-        <input type="radio" name="gender" id="male">
-        <label for="male">Masculino</label>
-        <input type="radio" name="gender" id="female">
-        <label for="female">Feminino</label>
-        <input type="radio" name="gender" id="other">
-        <label for="other">Outro</label>
-        <input type="radio" name="gender" id="nao-dizer">
-        <label for="nao-dizer">Prefiro não dizer</label>
+        <label class="radio-button-label"><input type="radio" name="gender"> <span>Homem</span></label> 
+        <label class="radio-button-label"><input type="radio" name="gender"> <span>Mulher</span></label>
+        <label class="radio-button-label"><input type="radio" name="gender" value="Não binário" /> <span>Não binário</span></label>
+        <label class="radio-button-label"><input type="radio" name="gender" value="Outro" /> <span>Outro</span></label>
+        <label class="radio-button-label"><input type="radio" name="gender" value="Prefiro não dizer" /> <span>Prefiro não dizer</span></label>
+
+        <hr>
 
         <h6>Termos e Condições</h6>
         
-        <div>
+        <div class="checkbox-field">
             <input type="checkbox" name="dont-send-messages" id="dont-send-messages">
             <label for="dont-send-messages">Não enviar mensagens de marketing</label>
         </div>
 
-        <div>
+        <div class="checkbox-field">
             <input type="checkbox" name="share-data" id="share-data">
             <label for="share-data">Compartilhar dados com terceiros</label>
         </div>
 
-        <div>
+        <div class="checkbox-field">
             <input type="checkbox" name="agree-terms-and-conditions" id="agree-terms-and-conditions">
             <label for="agree-terms-and-conditions">Concordar com os Termos e Condições</label>
         </div>
@@ -85,3 +84,4 @@
 </section>
 </body>
 </html>
+
