@@ -62,6 +62,7 @@ form input[type=text], input[type=email], input[type=number], input[type=passwor
 #bithdate {
     display: flex;
     flex-direction: row;
+    gap: 5px;
 }
 
 #birthdate-day-input {
