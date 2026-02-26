@@ -11,6 +11,12 @@ body {
     color: white;
 }
 
+i {
+    border: 0;
+    outline: none;
+    color: white
+}
+
 header {
     display: flex;
     justify-content: center;

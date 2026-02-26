@@ -12,6 +12,14 @@ body {
     color: white;
 }
 
+
+i {
+    border: 0;
+    outline: none;
+    color: white
+}
+
+
 section {
     background-color: #121212;
     width: 767px;
