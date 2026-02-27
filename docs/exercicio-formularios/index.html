@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Cadastro</h1>
+
+  <form id="form-register" action="">
+
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        placeholder="Seu email" 
+        required
+      >
+    </div>
+
+    <!-- Nome -->
+    <div class="form-group">
+      <label for="name">Nome</label>
+      <input 
+        type="text" 
+        id="name" 
+        placeholder="Seu nome" 
+        required
+      >
+    </div>
+
+    <!-- Senha -->
+    <div class="form-group">
+      <label for="password">Senha</label>
+      <input 
+        type="password" 
+        id="password" 
+        placeholder="Sua senha" 
+        required
+      >
+    </div>
+
+    <!-- Confirmação de senha -->
+    <div class="form-group">
+      <label for="confirm-password">Confirme sua senha</label>
+      <input 
+        type="password" 
+        id="confirm-password" 
+        placeholder="Confirme sua senha" 
+        required
+      >
+    </div>
+
+    <!-- Data de nascimento -->
+    <div class="form-group">
+      <label for="birthdate">Data de nascimento</label>
+      <input 
+        type="date" 
+        id="birthdate" 
+        required
+      >
+    </div>
+
+    <!-- Pretensão salarial -->
+    <div class="form-group">
+      <label for="salary">Qual sua pretensão salarial?</label>
+      <input 
+        type="number" 
+        id="salary" 
+        placeholder="Qual sua pretensão salarial?" 
+        min="0" 
+        step="100"
+      >
+    </div>
+
+    <!-- Nível de senioridade -->
+    <div class="form-group">
+      <label id="seniority-label">Qual seu nível de senioridade?</label>
+      
+      <div class="radio-group">
+        <input type="radio" id="junior" name="seniority" value="junior">
+        <label for="junior">Junior</label>
+
+        <input type="radio" id="intermediate" name="seniority" value="intermediate">
+        <label for="intermediate">Pleno</label>
+
+        <input type="radio" id="senior" name="seniority" value="senior">
+        <label for="senior">Senior</label>
+      </div>
+    </div>
+
+    <!-- Tempo de experiência -->
+    <div class="form-group">
+      <label for="experience">Qual seu tempo de experiência com programação?</label>
+      <select id="experience" required>
+        <option value="">Selecione...</option>
+        <option value="0">Menos de 1 ano</option>
+        <option value="1">De 1 a 2 anos</option>
+        <option value="2">De 2 a 5 anos</option>
+        <option value="3">De 5 a 10 anos</option>
+        <option value="4">Mais de 10 anos</option>
+      </select>
+    </div>
+
+    <!-- Linguagens de programação -->
+    <div class="form-group">
+      <label>Quais linguagens de programação voce utiliza?</label>
+      
+      <div class="checkbox-group">
+        <input type="checkbox" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" id="python" value="python">
+        <label for="python">Python</label>
+
+        <input type="checkbox" id="c" value="c">
+        <label for="c">C</label>
+
+        <input type="checkbox" id="java" value="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" id="php" value="php">
+        <label for="php">PHP</label>
+
+        <input type="checkbox" id="ruby" value="ruby">
+        <label for="ruby">Ruby</label>
+
+        <input type="checkbox" id="go" value="go">
+        <label for="go">Go</label>
+
+        <input type="checkbox" id="outras" value="outras">
+        <label for="outras">Outras</label>
+      </div>
+    </div>
+
+    <!-- Botão de submit -->
+    <button type="submit">Cadastrar</button>
+
+  </form>
+
+</body>
+</html>
